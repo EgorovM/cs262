@@ -39,7 +39,7 @@ class CustomSymbol < Symbol
   end
 
   def between(a, b, c)
-    return b <= a and a <= b
+    return b <= a and a <= c
   end
 end
 

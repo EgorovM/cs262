@@ -1,5 +1,6 @@
 require 'date'
 
+
 class PhoneBook
   attr_accessor :country, :birthday, :organization, :position
 
